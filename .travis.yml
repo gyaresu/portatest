@@ -1,0 +1,8 @@
+language: cpp
+
+cache: apt
+
+addons:
+    artifacts:
+        paths:
+            - $(ls test.txt | tr "\n" ":")
